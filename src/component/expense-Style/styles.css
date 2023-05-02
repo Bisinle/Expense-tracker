@@ -1,0 +1,90 @@
+body{
+  background-color: #333;
+  color: white;
+}
+.Expense-container{
+  border: 3px solid #f0094d;
+  border-radius: 5px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px;
+  align-items: center;
+}
+.btn{
+  background-color: rgb(6, 134, 134);
+}
+
+.btn:hover{
+  background-color: rgb(4, 94, 94);
+  color: white;
+  
+}
+.table{
+  border: 2px solid #f0094d;
+  border-radius: 5px;
+}
+.card{
+  width: 70%;
+  margin: auto;
+  background-color: #222;
+
+}
+.table{
+  display: table;
+}
+.tableRow{
+  display: table-row;
+  text-align: center;
+}
+.cell{
+  display: table-cell;
+  
+  
+  
+}
+.tableRow,.cell{
+  padding: 10px;
+ 
+}
+.ul{
+  list-style-type: none;
+  padding: 5px;
+}
+.ExpenseCardH2{
+text-align: center;
+text-decoration:underline #f0094d;
+color: rgb(5, 134, 134);
+}
+h6{
+  
+  color: rgb(5, 134, 134);
+}
+.form-control{
+  background-color: #222;
+  color: rgb(5, 134, 134);
+  transition: 1s;
+}
+.form-control:hover{
+  background-color: #222;
+  color: white;
+  border:#f0094d 2px solid;
+
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+.form button{
+  width: calc(100px );
+  margin: auto;
+  background-color:  rgb(5, 134, 134);
+  
+}
+
+.input-group-text{
+  background-color: rgb(3, 85, 85);
+  color: white;
+}
